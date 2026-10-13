@@ -16,7 +16,7 @@ public class App {
     pancakeRecipe.addIngredient(new Ingredient("Jajka", 2, "szt."));
     pancakeRecipe.addIngredient(new Ingredient("Szczypta soli", 1, "szcz."));
 
-    System.out.println("--- PRZEPIS NORMALNY ---");
+    System.out.println("--- PRZEPIS PODSTAWOWY ---");
     pancakeRecipe.displayRecipe();
 
     System.out.println("... Przeliczam składniki na imprezę (z 2 na 6 porcji) ...\n");
